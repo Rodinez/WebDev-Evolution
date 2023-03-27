@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Anotações sobre Git/Github</title>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<a href="https://docs.github.com/pt/get-started/quickstart/github-glossary"><div class="glossario"></div></a>
+			<h1>Anotações sobre os principais comandos do Git/Github para relembrar</h1>
+		</div><!--container-->
+		<div class="clear"></div>
+	</header>
+
+	<nav>
+		<div class="container">
+			<ul class="lista1">
+				<h2>Comandos básicos sem git</h2>
+				<li>ls - Lista todos os arquivos filhos de um arquivo pai</li>
+				<li>cd *nome do arquivo* - Acessa o arquivo escolhido</li>
+				<li>cd .. - Retorna-se à pasta anterior (arquivo pai)</li>
+				<li>mkdir - Cria-se uma nova pasta</li>
+				<p>*Sempre bom lembrar que esses comandos vão ser referentes a pasta no qual o Git Bash foi aberto*</p>
+			</ul><!--lista1-->
+
+			<ul class="lista2">
+				<h2>Comandos básicos com git</h2>
+				<li>git config --global user.name *meu nome* - Define o nome de usuário para o Git</li>
+				<li>git config --global user.email *meu email* - Define o e-mail de usuário para o Git (mesmo do GitHub)</li>
+				<li>git init - Cria um repositório Git</li>
+				<li>git status - Checa o projeto e indica se existe "untracked files"</li>
+				<li>git add -A - Adiciona todos os arquivos que foram modificados</li>
+				<li>git commit -m "mensagem" - Armazena as mudanças efetuadas e a mensagem escrita</li>
+				<li>git push origin main - Envia todos os arquivos modificados e “commitados” para o repositório no github</li>
+				<li>git clone *https://github.com/user/project.git* - Copia um projeto pro seu repositório local</li>
+			</ul><!--lista2-->
+
+			<div class="ajuda">
+				<p>*Caso não tenha achado o comando que te interessa ou quer aprofundar o seu conhecimento é só clicar no logo do GitHub que o mesmo te redicionará ao glossário do GitHub*</p>
+			</div><!--ajuda-->
+		</div><!--container-->
+	</nav>
+
+	<footer>
+		<div class="container">
+			<p>Todos os direitos reservados</p>
+			<p>mngtandrade@gmail.com</p>
+		</div><!--container-->
+	</footer>
